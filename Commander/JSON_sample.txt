@@ -1,0 +1,19 @@
+Sample JSON used for testing with POSTMAN application.
+----------------------------------------------------
+{
+	"howTo": "Run a .NET Core app",
+	"line": "dotnet run",
+	"platform": ".NET Core CLI"
+}
+
+
+----------------------------------------------------
+the following is for PATCH
+
+[
+	{
+		"op" : "replace",
+		"path": "/howto",
+		"value": "Some new value"
+	}
+]
